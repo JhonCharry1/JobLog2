@@ -1,0 +1,7 @@
+1 - Las Variables deben tener un nombre unico para cada una, de lo contrario se presentara un error de ambiguedad como se presento al intentar compilar el codigo de ejemplo, ya que existian una variable string y una boolean con el mismo nombre.
+
+2 - toda variable se debe inicializar, como en el ejemplo la variable int t no fue iniciada de forma correcta por lo que el compilador arroja el mensaje de variable local no asignada, lo mismo ocurre con la variable string i por lo cual se debe iniciar con valor 0 para variables de tipo int y para variables de tipo string con un valor vacio.
+
+3- eliminar las condiciones if repetidas e integrar los cambios en una sola condicion que evalue las mismas variables y que realicen las operaciones indicadas cuando se cumpla
+
+4- los valores string nunca seran nulos cambiar esta condicion a vacio
